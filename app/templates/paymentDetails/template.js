@@ -1,0 +1,3 @@
+((modules) => {
+    
+})(window.PaymentsApp.modules);

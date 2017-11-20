@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Payment Options</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul id="paymentOptionsId" class="list-group">
+                                {{#each paymentOptions}}
+                                    <li id="{{id}}" class="list-group-item {{#eq @index 0}} active {{/eq}}">
+                                        {{displayName}}
+                                        {{#eq @index 0}}
+                                            <span class="glyphicon glyphicon-chevron-right right"></span>
+                                        {{else}}
+                                            <span class="glyphicon right"></span>
+                                        {{/eq}}
+                                    </li>    
+                                {{/each}}
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <div id="paymentDetailsId">
+                                <!-- Render payments details form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            {{> paymentDetails}}
+        </div>
+    </div>
+</div>

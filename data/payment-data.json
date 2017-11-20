@@ -1,0 +1,196 @@
+{
+    "paymentOptions": [{
+        "id":"cc",
+        "displayName":"Credit Card",
+        "months":[{
+            "id":"01",
+            "value":"01 (Jan) "
+        },{
+            "id":"02",
+            "value":"02 (Feb)"
+        },{
+            "id":"03",
+            "value":"03 (Mar)"
+        },{
+            "id":"04",
+            "value":"04 (Apr)"
+        },{
+            "id":"05",
+            "value":"05 (May)"
+        },{
+            "id":"06",
+            "value":"06 (Jun)"
+        },{
+            "id":"07",
+            "value":"07 (Jul)"
+        },{
+            "id":"08",
+            "value":"08 (Aug)"
+        },{
+            "id":"09",
+            "value":"09 (Sep)"
+        },{
+            "id":"10",
+            "value":"10 (Oct)"
+        },{
+            "id":"11",
+            "value":"11 (Nov)"
+        },{
+            "id":"12",
+            "value":"12 (Dec)"
+        }],
+        "years":[{
+            "id":"2017",
+            "value":"2017"
+        },{
+            "id":"2018",
+            "value":"2018"
+        },{
+            "id":"2019",
+            "value":"2019"
+        },{
+            "id":"2020",
+            "value":"2020"
+        },{
+            "id":"2021",
+            "value":"2021"
+        },{
+            "id":"2022",
+            "value":"2022"
+        },{
+            "id":"2023",
+            "value":"2023"
+        },{
+            "id":"2024",
+            "value":"2024"
+        },{
+            "id":"2025",
+            "value":"2025"
+        }]
+    },{
+        "id":"dc",
+        "displayName":"Debit Card",
+        "months":[{
+            "id":"01",
+            "value":"01 (Jan) "
+        },{
+            "id":"02",
+            "value":"02 (Feb)"
+        },{
+            "id":"03",
+            "value":"03 (Mar)"
+        },{
+            "id":"04",
+            "value":"04 (Apr)"
+        },{
+            "id":"05",
+            "value":"05 (May)"
+        },{
+            "id":"06",
+            "value":"06 (Jun)"
+        },{
+            "id":"07",
+            "value":"07 (Jul)"
+        },{
+            "id":"08",
+            "value":"08 (Aug)"
+        },{
+            "id":"09",
+            "value":"09 (Sep)"
+        },{
+            "id":"10",
+            "value":"10 (Oct)"
+        },{
+            "id":"11",
+            "value":"11 (Nov)"
+        },{
+            "id":"12",
+            "value":"12 (Dec)"
+        }],
+        "years":[{
+            "id":"2017",
+            "value":"2017"
+        },{
+            "id":"2018",
+            "value":"2018"
+        },{
+            "id":"2019",
+            "value":"2019"
+        },{
+            "id":"2020",
+            "value":"2020"
+        },{
+            "id":"2021",
+            "value":"2021"
+        },{
+            "id":"2022",
+            "value":"2022"
+        },{
+            "id":"2023",
+            "value":"2023"
+        },{
+            "id":"2024",
+            "value":"2024"
+        },{
+            "id":"2025",
+            "value":"2025"
+        }]
+    },{
+        "id":"nb",
+        "displayName":"Net Banking",
+        "banks":[{
+            "id":"sbi",
+            "value":"State Bank of India"
+        },{
+            "id":"pnb",
+            "value":"Punjab National Bank"
+        },{
+            "id":"andhra",
+            "value":"Andhra Bank"
+        },{
+            "id":"canara",
+            "value":"Canara Bank"
+        },{
+            "id":"icici",
+            "value":"ICICI Bank"
+        },{
+            "id":"axis",
+            "value":"Axis Bank"
+        },{
+            "id":"bob",
+            "value":"Bank of Baroda"
+        },{
+            "id":"indusind",
+            "value":"IndusInd Bank"
+        },{
+            "id":"yes",
+            "value":"Yes Bank Ltd"
+        },{
+            "id":"syndicate",
+            "value":"Syndicate Bank"
+        }]
+    },{
+        "id":"wallet",
+        "displayName":"Wallets",
+        "wallets":[{
+            "id":"paytm",
+            "value":"Paytm Wallet"
+        },{
+            "id":"mobikwik",
+            "value":"Mobikwik"
+        },{
+            "id":"payumoney",
+            "value":"PayUMoney"
+        },{
+            "id":"citrus",
+            "value":"Citrus"
+        },{
+            "id":"oxigen",
+            "value":"Oxigen"
+        }]
+    }],
+    "merchantInfo":{
+        "name":"XYZ Corp.",
+        "amount":12345
+    }
+}

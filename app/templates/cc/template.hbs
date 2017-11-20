@@ -1,0 +1,46 @@
+<form id="ccForm" name="ccForm">
+    <div class="form-group">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number">
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+            <label for="exampleInputPassword1">Expiration Date</label>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="form-group">
+                        <select class="form-control" id="month">
+                            <option value="-1">Month</option>
+                            {{#each months}}
+                                <option value="{{id}}">{{value}}</option>    
+                            {{/each}}
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <select class="form-control" id="year">
+                        <option value="-1">Year</option>
+                        {{#each years}}
+                            <option value="{{id}}">{{value}}</option>
+                        {{/each}}
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="cardNumber">CVV</label>
+            <input type="password" class="form-control" id="cvv" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 form-group">
+            <label for="cardHolderName">Card Holder Name</label>
+            <input type="text" class="form-control" id="cardHolderName" placeholder="Card holder name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 form-group">
+            <button type="button" id="submit" class="btn btn-primary">Pay</button>
+        </div>
+    </div>
+</form>
